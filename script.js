@@ -4,7 +4,7 @@ const loginContainer = document.getElementById('login-container');
 
 loginButton.addEventListener('click', () => {
     const password = document.getElementById('password').value;
-    if (password === 'samarth') { // Change 'yourpassword' to your desired password
+    if (password === 'Archi0701') { // Change 'yourpassword' to your desired password
         loginContainer.style.opacity = 0;
         loginContainer.style.visibility = 'hidden';
         mainContainer.style.display = 'flex';
